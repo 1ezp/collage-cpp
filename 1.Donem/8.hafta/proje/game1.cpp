@@ -33,7 +33,6 @@ int main()
 int randomNumber()
 {
     srand(time(NULL));
-
     return rand() % 100 + 1;
 }
 
