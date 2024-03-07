@@ -16,7 +16,7 @@ int main(){
     cout << *pa <<endl;
     cout << &pa <<endl;
 
-    &pa = 15;
+    *pa = 15;
     
     cout << *pa <<endl;
     cout << a <<endl;
