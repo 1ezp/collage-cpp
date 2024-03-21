@@ -18,7 +18,8 @@ int fak(int say){
     int s =1;
     if(say<=0){
         return s;
-    }int i;
+    }
+    int i;
     for(i=say;i>=1;i--){
         s=s*i;
     }
