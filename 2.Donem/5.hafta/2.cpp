@@ -5,12 +5,13 @@ int fak(int);
 
 int main(){
     int say=0;
-    int(*fonkPtr)(int);
-    fonkPtr = fak; 
+    int(*fonkPtr)(int) = fak;
+    //fonkPtr = fak; 
     cout << "x: "<< endl;
     cin >> say;
 
-    int faktoriyel = (*fonkPtr)(say);
+    //int faktoriyel = (*fonkPtr)(say);
+    int faktoriyel = fonkPtr(say);
     cout << faktoriyel;
 }
 

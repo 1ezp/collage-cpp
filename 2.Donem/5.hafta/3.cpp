@@ -1,7 +1,10 @@
 #include <iostream>
 #include <cstdarg>
 #include <cstdio>
+
 using namespace std;
+
+
 int topla(int parametreSayi,...);
 
 int main(){
