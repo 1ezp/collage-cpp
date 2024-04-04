@@ -23,7 +23,6 @@ int main(){
     d1.yaricap = 10;
 
     daireBilgileriYazdir(d1);
-
     return 0;
 }
 
