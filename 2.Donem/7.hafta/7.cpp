@@ -4,7 +4,7 @@
 using namespace std;
 
 enum KullaniciSeviyleri{
-    misafit=1,
+    misafir=1,
     orgrenci=2,
     akademisyen=3,
     Admin=4,
@@ -25,8 +25,9 @@ int main(){
     KullaniciSeviyleri seviye;
     cout << "Kullanici seviyesini giriniz: ";
     scanf("%d",&seviye);
+   
     switch(seviye){
-        case misafit:
+        case misafir:
             cout << "Misafir girisi yapildi" << endl;
             break;
         case orgrenci:
@@ -43,5 +44,6 @@ int main(){
             break;
     }
  
+    cout << seviye << endl;
     return 0;
 }
