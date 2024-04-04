@@ -9,6 +9,7 @@ struct FILIM{
     char yontmen[50];
     int yil;
 };
+
 struct FILIM1{
     char ad[50];
     char yontmen[50];
