@@ -8,6 +8,7 @@ class DateClass{
     int yil {};
 
     public:
+    // Define a function named setDate that takes 3 integers as input and sets the values of ay, gun, yil
     void setDate(int a, int g, int y){
         ay = a;
         gun = g;
