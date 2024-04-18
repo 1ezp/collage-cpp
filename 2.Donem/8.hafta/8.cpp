@@ -18,7 +18,7 @@ class Date{
     int getYear(){return m_year;}
     void setYear(int year){m_year = year;};
 
-}
+};
 
 int main(){
 
