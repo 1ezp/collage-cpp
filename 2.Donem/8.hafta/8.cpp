@@ -26,6 +26,7 @@ int main(){
     e.setDay(1);
     e.setYear(2021);
 
+    cout << e.getMonth() << "/" << e.getDay() << "/" << e.getYear() << endl;
 
     return 0;
 }
