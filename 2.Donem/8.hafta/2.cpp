@@ -2,6 +2,7 @@
 
 using namespace std;
 
+// Define a class named TarihYapisi with 3 integer members: gun, ay, yil
 class TarihYapisi{
     public:
     int gun;
