@@ -13,7 +13,7 @@ class Date{
     void setMonth(int month){m_month = month;};
     
     int getDay(){return m_day;}
-    void setMonth(int day){m_day = day;};
+    void setDay(int day){m_day = day;};
     
     int getYear(){return m_year;}
     void setYear(int year){m_year = year;};
@@ -21,6 +21,10 @@ class Date{
 };
 
 int main(){
+    Date e;
+    e.setMonth(1);
+    e.setDay(1);
+    e.setYear(2021);
 
 
     return 0;
