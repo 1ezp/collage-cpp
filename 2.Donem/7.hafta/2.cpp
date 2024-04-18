@@ -26,10 +26,6 @@ int main(){
 
     int totalAge {joe.yas + frank.yas};
 
-    
-
-
-
 
     return 0;
 }

@@ -38,7 +38,6 @@ int main(){
     cout << filim2.yontmen << endl;
     cout << filim2.yil << endl;
 
-
     // 3. yol
     FILIM filim3 = {"TEST","IDK",2008};
     cout << filim3.ad << endl;

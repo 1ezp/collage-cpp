@@ -21,6 +21,5 @@ int main(){
     cout << filimptr->yontmen << endl;
     cout << filimptr->yil << endl;
 
-
     return 0;
 }

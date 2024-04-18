@@ -17,6 +17,5 @@ int main(){
 
     filimPtr = (FILIM*)malloc(sizeof(filim1));
     
-
     return 0;
 }
