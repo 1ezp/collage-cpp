@@ -1,4 +1,6 @@
 #include <iostream>
+#include <cassert>
+
 
 using namespace std;
 
@@ -8,10 +10,17 @@ class Kseir{
     int payda;
 
     public:
-    // Default constructor - yapıcı fonksiyon
+    // Default constructor - yapıcı fonksiyon as a default
     Kseir(){
         pay = 0;
         payda = 1;
+    }
+
+    // Constructor - yapıcı fonksiyon with parameters
+    Kseir(int pay, int payda){
+        assert(payda != 0); // payda 0 olamaz (payda can't be 0
+        this->pay = pay;
+        this->payda = payda;
     }
 
     int getPay(){
@@ -28,6 +37,10 @@ class Kseir{
 
 int main(){
 
+    Kseir k1;
+    Kseir k2(1, 2);
+
+    
 
 
     return 0;
