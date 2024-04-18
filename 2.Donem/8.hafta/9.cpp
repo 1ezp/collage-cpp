@@ -40,7 +40,8 @@ int main(){
     Kseir k1;
     Kseir k2(1, 2);
 
-    
+    cout << k1.getPay() << "/" << k1.getPayda() << " = " << k1.getDeger() << endl;
+
 
 
     return 0;
