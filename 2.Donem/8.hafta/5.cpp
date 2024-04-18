@@ -4,6 +4,7 @@ using namespace std;
 
 class DateClass{
     // remove the public access specifier to see the error
+    // private: mean the data can only be accessed by the class itself
     public:
     int ay {};
     int gun {};
