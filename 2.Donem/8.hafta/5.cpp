@@ -3,6 +3,7 @@
 using namespace std;
 
 class DateClass{
+    // remove the public access specifier to see the error
     public:
     int ay {};
     int gun {};
