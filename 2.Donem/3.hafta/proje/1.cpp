@@ -2,7 +2,7 @@
 
 using namespace std;
 
-
+// heasp fonksiyonu iki sayiyi ve bir islemi alir ve sonucu geri dondurur
 void heasp(int *sonuc,int n1,int n2,char islem){
     switch(islem){
         case '+':
