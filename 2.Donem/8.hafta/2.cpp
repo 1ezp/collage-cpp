@@ -9,6 +9,7 @@ class TarihYapisi{
     int ay;
     int yil;
 
+
     void print(){
         cout << gun << "/" << ay << "/" << yil << endl;
     }

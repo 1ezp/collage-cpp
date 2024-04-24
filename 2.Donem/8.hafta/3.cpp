@@ -12,9 +12,11 @@ class Calisan{
         cout << "Yas: " << yas << endl;
         cout << "Maas: " << maas << endl;
     }
+
     void yasYazdir(){
         cout << "Yas: " << yas << endl;
     }
+    
 };
 
 int main(){

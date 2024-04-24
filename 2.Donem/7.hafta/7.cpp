@@ -24,6 +24,7 @@ int main(){
     
     KullaniciSeviyleri seviye;
     cout << "Kullanici seviyesini giriniz: ";
+    
     scanf("%d",&seviye);
    
     switch(seviye){

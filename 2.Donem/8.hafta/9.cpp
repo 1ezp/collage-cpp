@@ -30,7 +30,7 @@ class Kseir{
         return payda;
     }
     
-    double getDeger(){ return static_cast<double>(pay) / payda;}
+    double getDeger(){ return (double)(pay) / payda;}
 
 };
 

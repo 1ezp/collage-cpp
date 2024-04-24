@@ -17,6 +17,7 @@ int main(){
     *ptr = 225;
     cout << *ptr << endl;
 
+    // free is used in C (not C++) to deallocate memory that was allocated using functions like malloc, calloc, or realloc.
     free(ptr); // free the memory location
     ptr = NULL; // set the pointer to NULL
     return 0;
