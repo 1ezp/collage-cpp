@@ -8,6 +8,7 @@ class Deger{
         int m_deger {};
     
     public:
+        
         Deger(int deger): m_deger(deger){}
 
         friend bool isEqual(const Deger deger1, const Deger deger2);
