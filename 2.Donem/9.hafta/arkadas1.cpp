@@ -2,8 +2,6 @@
 using namespace std;
 
 
-
-
 class Nesne{
     private:
         int m_deger {0};
