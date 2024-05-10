@@ -2,7 +2,7 @@
 
 using namespace std;
 
-
+class Nem;
 
 class Sicaklik{
     private:
@@ -10,6 +10,7 @@ class Sicaklik{
 
     public:
         Sicaklik(int hava = 0):m_hava(hava){}
+
         friend void printHava(const Sicaklik sicaklik,const Nem nem);
 
 };
