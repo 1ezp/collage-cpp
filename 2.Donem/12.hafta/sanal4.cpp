@@ -33,5 +33,6 @@ public:
 int main(){
 
     Animal* a = new Dragonfly("dragonfly");
+    cout << a->getName() << " says " << a->speak() << endl;
     return 0;
 }
